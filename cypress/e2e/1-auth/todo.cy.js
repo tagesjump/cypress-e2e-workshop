@@ -16,7 +16,7 @@ describe('Авторизация', () => {
     cy.url().should('include', '')
 
     cy.get('#navbarDropdown2').should('be.visible')
-
+    cy.get('#navbarDropdown2').should('contain.text','Test')
   })
 
 })
