@@ -1,4 +1,3 @@
-
 describe('Авторизация', () => {
   beforeEach(() => {
     cy.visit('/')
