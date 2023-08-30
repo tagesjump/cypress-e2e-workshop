@@ -1,7 +1,4 @@
-import ShopPage from "../support/page-objects/shop-page";
-
 describe('Оформление заказа', () => {
-  let shopPage = new ShopPage()
 
   beforeEach(() => {
     cy.visit('/')
